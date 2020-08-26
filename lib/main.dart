@@ -139,13 +139,14 @@ class _MyAppState extends State<MyApp> {
                         height: 50,
                       ),
                       RaisedButton(
-                          padding: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(15),
                           splashColor: Colors.blue,
-                          shape: CircleBorder(),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: new BorderRadius.circular(30.0)),
                           color: Color(0xFF075e54),
-                          child: Icon(
-                            Icons.arrow_forward_ios,
-                            color: Colors.white,
+                          child: new Text(
+                            "Send",
+                            style: TextStyle(color: Colors.white),
                           ),
                           onPressed: () =>
                               FlutterOpenWhatsapp.sendSingleMessage(

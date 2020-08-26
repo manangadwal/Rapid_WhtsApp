@@ -1,3 +1,3 @@
 # RapidWhtsApp
 
-Open WhatsApp and send message to single number in Android and iOS without saving user's number.
+Opens WhatsApp and sends message to single number in Android and iOS without saving user's number.

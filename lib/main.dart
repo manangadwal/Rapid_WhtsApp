@@ -49,10 +49,12 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         home: Container(
           decoration: new BoxDecoration(
-              image: new DecorationImage(
-            image: new AssetImage("assets/bg.png"),
-            fit: BoxFit.cover,
-          )),
+            color: Color(0xFFe5dcd5),
+            /*image: new DecorationImage(
+                image: new AssetImage("assets/bg.png"),
+                fit: BoxFit.cover,
+              )*/
+          ),
           child: Scaffold(
               backgroundColor: Colors.transparent,
               appBar: AppBar(

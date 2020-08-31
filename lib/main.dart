@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
           child: Scaffold(
               backgroundColor: Colors.transparent,
               appBar: AppBar(
-                title: const Text('RapidWhtsApp'),
+                title: const Text('Rapid WhtsApp'),
                 centerTitle: true,
                 backgroundColor: Color(0xFF075e54),
               ),

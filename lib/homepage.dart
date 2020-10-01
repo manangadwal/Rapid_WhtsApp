@@ -46,7 +46,7 @@ class _homepageState extends State<homepage> {
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: const Text('Rapid WhtsApp'),
+        title: const Text('Rapid WhatsApp'),
         centerTitle: true,
         backgroundColor: Color(0xFF075e54),
       ),
